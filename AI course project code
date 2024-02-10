@@ -1,0 +1,315 @@
+% The knoweledge base
+
+/* Facts, the following lines are the dataset that is gathered for each media
+
+% (Movies, Tv shows and books) */
+
+% Movies (46 suggestions)
+movie(fight_club, drama, 8.8).
+movie(harry_potter, fantasy, 7.6).
+movie(avengers, action, 8.4).
+movie(inception, thriller, 8.8).
+movie(the_lord_of_the_rings, fantasy, 8.8).
+movie(pulp_fiction, thriller, 8.9).
+movie(amélie, comedy, 8.3).
+movie(whiplash, drama, 8.5).
+movie(the_roommate, thriller, 4.9).
+movie(son_of_the_mask, comedy, 2.2).
+movie(hereditary, horror, 7.3).
+movie(john_wick, action, 7.4).
+movie(avengers_endgame, action, 8.4).
+movie(the_hobbit, fantasy, 7.8).
+movie(the_pursuit_of_happyness, drama, 8.0).
+movie(the_hunger_games, action, 7.2).
+movie(get_out, horror, 7.7).
+movie(the_babadook, horror, 6.8).
+movie(the_shining, horror, 8.4).
+movie(zodiac, mystery, 7.7).
+movie(the_twilight_saga, fantasy, 5.5).
+movie(the_last_airbender, fantasy, 4.0).
+movie(the_roommate, thriller, 4.9).
+movie(birdemic_shock_and_terror, thriller, 1.8).
+movie(battleship, action, 5.8).
+movie(the_da_vinci_code, mystery, 6.6).
+movie(the_room, drama, 3.7).
+movie(jack_and_jill, comedy, 3.3).
+movie(the_happening, thriller, 5.0).
+movie(jurassic_park, fantasy, 8.1).
+movie(death_becomes_her, comedy, 6.6).
+movie(the_matrix, action, 8.7).
+movie(the_hunger_games, action, 7.2).
+movie(black_panther, action, 7.3).
+movie(the_big_lebowski, comedy, 8.1).
+movie(the_grand_budapest_hotel, comedy, 8.1).
+movie(the_shawshank_redemption, drama, 9.3).
+movie(the_dark_knight, action, 9.0).
+movie(gone_with_the_wind, drama, 8.1).
+movie(the_godfather, mystery, 9.2).
+movie(the_wizard_of_oz, fantasy, 8.1).
+movie(back_to_the_future, comedy, 8.5).
+movie(die_hard, thriller, 8.2).
+movie(taxi_driver, drama, 8.2).
+movie(the_social_network, drama, 7.7).
+movie(inside_out, comedy, 8.1).
+movie(airplane, comedy, 7.7).
+
+
+%Books (46 suggestions)
+book(the_great_gatsby, drama, 2.84).
+book(jack_reacher, action, 4.04).
+book(gone_girl, thriller, 4.05).
+book(bird_box, horror, 2.97).
+book(the_grapes_of_wrath, drama, 2.83).
+book(if_we_were_villains, fiction, 4.2).
+book(harry_potter_and_the_sorcerers_stone, fantasy, 4.47).
+book(pet_sematary, horror, 3.94).
+book(the_hunt_for_red_october, action, 4.04).
+book(bridget_joness_diary, comedy, 3.76).
+book(frankenstein, horror, 3.78).
+book(the_dark_tower, fantasy, 2.85).
+book(get_hard, comedy, 2.85).
+book(collateral_beauty, drama, 2.65).
+book(the_wicker_man, horror, 2.58).
+book(angels_and_demons, mystery, 2.59).
+book(the_grudge, horror, 2.41).
+book(underworld, action, 2.72).
+book(the_girl_on_the_train, mystery, 2.96).
+book(the_alchemist, fiction, 3.85).
+book(in_the_woods, thriller, 2.93).
+book(the_open_house, thriller, 2.79).
+book(the_forest, thriller, 2.51).
+book(ridiculous_6, comedy, 2.41).
+book(the_host, fiction, 3.84).
+book(underworld, action, 2.72).
+book(the_last_song, drama, 2.63).
+book(assassins_apprentice, fantasy, 4.29).
+book(the_grapes_of_wrath, drama, 4.07).
+book(the_silence_of_the_lambs, thriller, 4.19).
+book(pet_sematary, horror, 3.94).
+book(the_da_vinci_code, action, 3.79).
+book(crazy_rich_asians, comedy, 3.82).
+book(a_game_of_thrones, fantasy, 4.45).
+book(the_girl_on_the_train, thriller, 3.91).
+book(eragon, fantasy, 2.78).
+book(the_girl_with_the_dragon_tattoo, action, 4.13).
+book(where_did_you_go_bernadette, comedy, 3.90).
+book(klara_and_the_sun, fiction, 4.75).
+book(bossypants, comedy, 3.95).
+book(the_da_vinci_code, thriller, 3.79).
+book(the_bourne_identity, action, 4.00).
+book(the_name_of_the_wind, fantasy, 4.55).
+book(in_the_woods, thriller, 3.76).
+book(the_final_empire, fantasy, 4.43).
+book(the_apparition, horror, 2.71).
+book(ghostbusters_2016, comedy, 2.80).
+
+
+% TV Shows (46 suggestions)
+tv_show(the_walking_dead, horror, 8.2).
+tv_show(lost, fantasy, 8.3).
+tv_show(the_boys, action, 8.7).
+tv_show(fear_the_walking_dead, horror, 6.9).
+tv_show(westworld, drama, 8.6).
+tv_show(how_i_met_your_mother, comedy, 8.3).
+tv_show(black_mirror, mystery, 8.8).
+tv_show(the_mentalist, thriller, 8.1).
+tv_show(the_haunting_of_bly_manor, thriller, 7.4).
+tv_show(jessica_jones, action, 7.9).
+tv_show(agents_of_shield, action, 7.5).
+tv_show(shadowhunters, fantasy, 6.6).
+tv_show(legacies, fantasy, 7.4).
+tv_show(daredevil, action, 8.6).
+tv_show(shadow_and_bone, fantasy, 7.7).
+tv_show(vikings, action, 8.5).
+tv_show(shannara, fantasy, 7.2).
+tv_show(the_crown, drama, 8.7).
+tv_show(once_upon_a_time, fantasy, 7.7).
+tv_show(the_last_ship, action, 7.5).
+tv_show(the_twilight_zone, mystery, 7.8).
+tv_show(the_night_of, thriller, 8.5).
+tv_show(blindspot, action, 7.4).
+tv_show(arrow, action, 7.5).
+tv_show(mad_men, drama, 8.6).
+tv_show(nikita, action, 7.7).
+tv_show(the_good_place, comedy, 8.2).
+tv_show(the_killing, mystery, 8.2).
+tv_show(brooklyn_nine_nine, comedy, 8.4).
+tv_show(sherlock, mystery, 9.1).
+tv_show(money_heist, drama, 8.3).
+tv_show(legend_of_the_seeker, fantasy, 7.6).
+tv_show(narcos, thriller, 8.8).
+tv_show(community, comedy, 8.5).
+tv_show(true_detective, thriller, 9.0).
+tv_show(friends, comedy, 8.9).
+tv_show(prison_break, action, 8.3).
+tv_show(game_of_thrones, fantasy, 9.3).
+tv_show(the_office, comedy, 8.9).
+tv_show(outrlander, fantasy, 8.4).
+tv_show(house_of_cards, drama, 8.7).
+tv_show(stranger_things, horror, 8.7).
+tv_show(the_night_manager, mystery, 8.1).
+tv_show(the_wire, drama, 9.3).
+tv_show(fleabag, comedy, 8.7).
+tv_show(breaking_bad, drama, 9.5).
+tv_show(the_office, comedy, 8.8).
+
+/* recommend rule (for each media)
+ checks the corresponding media type (movie, book, tv_show)
+database to find an item that matches the given Genre and has a
+rating greater than or equal to rating.
+(to take anything or equal to the rating
+ it uses another rules as seen below)*/
+recommend(Media, Genre, Rating, Recommendation) :-
+ (
+Media == movie ->
+ recommendation_movie(Genre, Rating, Recommendation)
+ ;
+ Media == book ->
+ recommendation_book(Genre, Rating, Recommendation)
+ ;
+ Media == tv_show ->
+ recommendation_tv_show(Genre, Rating, Recommendation)
+ ).
+
+/* It checks the corresponding media type (movie, book, tv_show)
+database to find an item that matches the given Genre and has a
+rating greater than or equal to Rating.*/
+
+recommendation_movie(Genre, Rating, Recommendation) :-
+ movie(Recommendation, Genre, MovieRating),
+ MovieRating >= Rating.
+
+
+recommendation_book(Genre, Rating, Recommendation) :-
+ book(Recommendation, Genre, BookRating),
+ BookRating >= Rating.
+
+recommendation_tv_show(Genre, Rating, Recommendation) :-
+ tv_show(Recommendation, Genre, ShowRating),
+ ShowRating >= Rating.
+
+/* The following few rules deals with the the user Interaction */
+/* Rule that asks the user what media type to
+ get recommendation for */
+ask_media(Media):-
+ write('Pick a media type: '), nl, write('-movie'), nl, write('-tv_show'), nl, write('-book'),
+ read(Media). 
+
+
+/* Rule that asks the user what type of genere of
+ the media recommendation they want */
+ask_genre(Genre):-
+ write('What genre are you interested in? '), nl, write('-fantasy'), nl, write('-action'), nl,
+ write('-thriller'), nl, write('-mystery'), nl,
+ write('-comedy'), nl, write('-drama'), nl, write('-horror'),
+ read(Genre).
+/* Rule that asks the user what is the minmum rating of
+ the media recommendation they want */
+ask_rating(Rating):-
+ write('What is the minimum rating you prefer? 1-10 rating for movies and tv shows 1-5 rating for books) '),
+ read(Rating).
+
+/* Rule that asks the user if they want another recommendation or
+ no if no then the system terminates */
+ask_continue(Continue):-
+ write('Do you want another recommendation? (yes/no): '),
+ read(Continue).
+
+
+/* Rule that asks the users to rate their
+experience when they want to quit the system*/
+%Users Rating
+:- dynamic rate/1.
+rate([5,5,4,3,5,4,5,3,4,5,3,4,5,5,5,5,4,4,5,4]).
+addRating:-
+writeln("Help us develop our system! please enter a number between 1-5 to express how
+happy you are with the service."),
+writeln("Enter 1 for poor, up to 5 for excellent"),
+read(X),
+( not(X==1),not(X==2),not(X==3),not(X==4),not(X==5) ->
+ writeln("Invalid Input. You should enter a number between 1-5."), addRating;
+
+ ( rate(List),
+ append(List,[X],RatingList),
+ retract(rate(List)),
+ assert(rate(RatingList)))).
+/*The following lines are the calculations for
+the system rating */
+%Sum Rating
+sumAverage([X],X). sumAverage([H|T],Sum):-
+sumAverage(T,SumT), Sum is H+SumT.
+% Rating Average
+average(Average):- rate(List),
+length(List,Ln), sumAverage(List,Sum), Average is Sum/Ln.
+%Average Rounding
+round(X,Y,D) :-
+Z is X * 10^D,
+round(Z, ZA), Y is ZA / 10^D.
+% Rules, the following lines are the rules of the system
+/* shows the rules of the system’s start display,
+ it would display the menu for the user to pick from
+ and it'd also dispaly the recommendations based
+ on the inputs of the user, morever the system terminiates
+ only if the user doesn't want any further actions */
+recommendation_system :-
+ average(Avg), round(Avg,RoundedAvg,2),
+ write('Welcome to the Multimedia Recommendation System!'), nl,
+ write('Our system total rating is:'),write(RoundedAvg), nl,
+
+/* asks the user to enter one type of the media
+ if the input was incorrect it asks to reeter */
+ ask_media(Media),
+ (
+ Media \= movie,Media \= book, Media \= tv_show ->
+ write('Invalid Input. please reenter your choice correctly.'), nl,recommendation_system,
+ ! % End the loop
+ ;
+/* asks the user to enter one type of genre
+ if the input was incorrect it would inform the
+ user that input is invalid and suggest to renterr */
+ ask_genre(Genre),
+ (
+ Genre \= fantasy, Genre \= action, Genre \= thriller, Genre
+ \= mystery, Genre \= comedy, Genre \= drama, Genre \= horror ->
+ write('Invalid Input. please reenter your choice correctly.'), nl,recommendation_system,
+ ! % End the loop
+ ;
+/* asks the user to enter one type of genre
+ if the input was incorrect it asks to reeter if
+ input exceeds the given range it would inform
+ the user that input is invalid and suggest to renter */
+ ask_rating(Rating),
+ (
+ % Rating >10 , Rating <0 didn't work!
+ Rating \= 1 , Rating \= 2, Rating \= 3, Rating \= 4,Rating \= 5, Rating \= 6, Rating \= 7, Rating \=
+8, Rating \= 9, Rating \= 10 ->
+ write('Invalid Input. please write a number between 1-10 for movies and tv_shows and 1-5 for
+books.'), nl,recommendation_system,
+ ! % End the loop
+ ;
+ nl,
+ write('Based on your preferences, we recommend the following:'), nl,
+ findall(Recommendation, recommend(Media, Genre, Rating, Recommendation), Recommendations),
+ print_recommendations(Recommendations),
+ nl,
+ write('Enjoy your multimedia experience!'), nl,
+ ask_continue(Continue),
+ (
+ Continue \= yes ->
+ addRating, nl,
+ write('We hope you enjoyed your multimedia experience!'), nl,
+ ! % End the loop
+ ;
+ recommendation_system
+ )))).
+/* rule that prints a list of all the recommnedations
+ on the knowledge base instead of suggesting 1 thing
+ if there are more than 1 recommendation */
+print_recommendations([]) :- write('No recommendations found.'), nl, !.
+print_recommendations([Recommendation]) :-
+ write('- '), write(Recommendation), nl, !.
+print_recommendations([Recommendation | Rest]) :-
+ write('- '), write(Recommendation), nl,
+ print_recommendations(Rest).
+% manual Call
+:- recommendation_system.
